@@ -16,7 +16,16 @@
         "string_view": "cpp",
         "unordered_map": "cpp",
         "utility": "cpp",
-        "hashtable": "cpp"
+        "hashtable": "cpp",
+        "__config": "cpp",
+        "__nullptr": "cpp",
+        "cstddef": "cpp",
+        "exception": "cpp",
+        "new": "cpp",
+        "stdexcept": "cpp",
+        "type_traits": "cpp",
+        "typeinfo": "cpp",
+        "algorithm": "cpp"
     },
     "python.pythonPath": "/usr/local/bin/python3"
 }
