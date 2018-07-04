@@ -3,9 +3,7 @@
 #include <vector>
 #include <cstdlib>
 
-using std::vector;
-using std::cin;
-using std::cout;
+using namespace std;
 
 int64_t  MaxPairwiseProduct(const vector<int>& numbers) {
     int64_t max_product = 0;

@@ -25,7 +25,15 @@
         "stdexcept": "cpp",
         "type_traits": "cpp",
         "typeinfo": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "iosfwd": "cpp",
+        "__bit_reference": "cpp",
+        "locale": "cpp",
+        "random": "cpp",
+        "ios": "cpp",
+        "__functional_03": "cpp",
+        "functional": "cpp",
+        "cstdlib": "cpp"
     },
     "python.pythonPath": "/usr/local/bin/python3"
 }

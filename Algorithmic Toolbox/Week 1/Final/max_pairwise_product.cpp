@@ -3,9 +3,7 @@
 #include <iostream>
 #include <vector>
 
-using std::vector;
-using std::cin;
-using std::cout;
+using namespace std;
 
 long long MaxPairwiseProductFast(const vector<int>& numbers) {
     int n = numbers.size();

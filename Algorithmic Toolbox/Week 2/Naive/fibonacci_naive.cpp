@@ -3,11 +3,10 @@
 #include <vector>
 #include <cstdlib>
 
-using std::vector;
-using std::cin;
-using std::cout;
+using namespace std;
 
-long long  fibonacci_naive(long long n) {
+// Complexity is O(2^n).
+int64_t  fibonacci_naive(int64_t n) {
     if (n <= 1) {
         return n;
     } else {
@@ -15,30 +14,12 @@ long long  fibonacci_naive(long long n) {
     }
 }
 
-long long  fibonacci_fast(long long n) {
-    if (n <= 1) {
-        return n;
-    } else {
-        
-    }
-}
-
-void test_solution() {
-    assert(fibonacci_fast(3) == 2);
-    assert(fibonacci_fast(10) == 55);
-    for (int n = 0; n < 20; ++n) {
-        assert(fibonacci_fast(n) == fibonacci_naive(n));
-    }    
-}
-
 int main() {
-    long long n;
+    int64_t n;
     cin >> n;
 
-    long long result_naive = fibonacci_naive(n);
-    cout << result_naive << "\n";
+    int64_t result_naive = fibonacci_naive(n);
+    cout << "result: " << result_naive << "\n";
 
-    //test_solution();
-    //cout << fibonacci_fast(n) << '\n';
     return 0;
 }
