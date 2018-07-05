@@ -3,11 +3,13 @@
 #include <vector>
 #include <cstdlib>
 
+using namespace std;
+
 long long fibonacci_fast(long long n) {
-    if (n == 0) {
-        return 0;
+    if (n <= 1) {
+        return n;
     } else {
-        std::vector<long long> numbers(n+1);
+        vector<long long> numbers(n+1);
         numbers[0] = 0;
         numbers[1] = 1;
 
@@ -20,8 +22,8 @@ long long fibonacci_fast(long long n) {
 
 int main() {
     long long n;
-    std::cin >> n;
+    cin >> n;
 
-    std::cout << fibonacci_fast(n) << '\n';
+    cout << fibonacci_fast(n) << '\n';
     return 0;
 }
