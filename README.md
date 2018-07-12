@@ -2,10 +2,22 @@
 
 ## Hints
 
+__Compile__
+
+```bash
+
 g++ -pipe -O2 -std=c++11 file.cpp
+
+```
+
+__Lint__
+
+```bash
 cpplint 'file name'
 
-execution time:
+```
+
+__Measure execution time__
 
 ```c++
 
