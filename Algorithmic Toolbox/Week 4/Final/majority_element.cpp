@@ -1,9 +1,9 @@
 // "Copyright [2018] <Sasha Prokhorenko"
+#include <algorithm>
 #include <iostream>
 #include <vector>
-#include <cstdlib>
 
-using namespace std;
+using std::vector;
 
 int get_majority_element(vector<int> &a, int left, int right) {
     if (left == right) return -1;

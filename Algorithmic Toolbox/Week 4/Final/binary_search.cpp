@@ -16,13 +16,6 @@ int binary_search_iterative(const vector<int> &a, int x) {
     return -1;
 }
 
-int linear_search(const vector<int> &a, int x) {
-    for (size_t i = 0; i < a.size(); ++i) {
-        if (a[i] == x) return i;
-    }
-    return -1;
-}
-
 int main() {
     int n;
     std::cin >> n;
