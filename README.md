@@ -1,5 +1,39 @@
 # Data Structures and Algorithms
 
+
+## Algorithmic Toolbox
+
+- [Small Fibonacci Number]()
+- [The Last Digit of a Large Fibonacci Number]()
+- [Greatest Common Divisor]()
+- [Least Common Multiple]()
+- [Huge Fibonacci Number modulo m]()
+
+
+### Greedy algorithms
+
+- [Changing Money]()
+- [Fractional Knapsack]()
+- [Covering Segments by Points]()
+- [Pairwise Distinct Summands]()
+
+### Divide and conquer
+
+- [Binary Search]()
+- [Majority Element]()
+- [Sorting: 3-Way Partition]()
+- [Number of Inversions]()
+- [Points and Segments]()
+
+### Dynamic programming
+
+- [Primitive Calculator]()
+- [Take as Much Gold as Possible]()
+- [Compute the Edit Distance Between Two Strings]()
+- [Maximize the Value of an Arithmetic Expression]()
+- [Longest Common Subsequence of Three Sequences]()
+
+
 ## Hints
 
 __Compile__
